@@ -1,0 +1,32 @@
+#paragrafo1 {
+	font-size: 24px;
+}
+.fundo {
+	background-color: pink;
+	color: green;
+	text-align: center;
+}
+
+.borda-preta{
+	border: 3px solid;
+	border-color: black;
+}	
+
+body {
+	font-family: 'Raleway';
+}
+
+ul{
+	background: #3399ff;
+    padding: 10px;;
+}
+
+#foto{
+	width: 200px;
+	height: 200px;
+	overflow: auto;
+}
+
+
+
+}
