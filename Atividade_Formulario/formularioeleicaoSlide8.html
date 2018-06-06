@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Formulário Líderes de Turma</title>
+	</head>
+	<body>
+		<form method="post" action="" enctype="multpart/form-data">
+			<label for="nome">Nome:</label>	
+			<input type="text" id="nome" name="nome" autocomplete="off" required placeholder="Digite seu nome completo" autofocus>
+			<br><br>
+
+			<label for="senha">Senha:</label>
+			<input type="password" id="senha" name="senha" placeholder="Digite sua senha">
+			<br><br>
+
+			<label for="dt_nasc">Data de Nascimento:</label>
+			<input type="date" id="dt_nasc" name="dt_nasc">
+			<br><br>
+
+			<label for="hr_nasc">Hora que estou votando:</label>
+			<input type="time" id="hr_nasc" name="hr_nasc">
+			<br><br>
+
+			<label for="idade">Sua idade:</label>
+			<input type="number" id="idade" 
+			name="idade" value="14" min="14" max="35">
+			<br><br>
+			<label for="cidade">Selecione sua turma:</label>
+			<select id="cidade" name="cidade">
+				<option disabled selected>Selecione sua turma</option>
+				<optgroup label="Manhã"></optgroup>
+					<option value="nat">Programação Web</option>
+					<option value="mos">Webdesigner</option>
+					<option value="xls">Excel Av.</option>
+				<optgroup label="Noite"></optgroup>	
+					<option value="nat">Programação Web</option>
+					<option value="mos">Webdesigner</option>
+					<option value="xls">Excel Av.</option>
+			</select>
+			<br><br>
+			<fieldset> 
+				<legend><strong>Sexo</strong></legend>
+
+				<label>
+					<input type="radio" name="sexo" value="masculino" checked>Masculino
+				</label>
+				<label>
+					<input type="radio" name="sexo" value="feminino">Feminino
+				</label>
+			</fieldset>
+
+			<br>
+			<fieldset>
+				<legend><strong>Competências - Auto-Avaliação</strong></legend>
+				
+					<label for="nota">Inteligente:</label>
+						<input type="range" id="nota" name="nota" value="0" min="0" max="10">
+			<br>
+					<label for="nota">Educado:</label>
+						<input type="range" id="nota"name="nota" value="0" min="0" max="10">
+			<br>		
+					<label for="nota">Cortês:</label>
+						<input type="range" id="nota"name="nota" value="0" min="0" max="10">
+			<br>
+					<label for="nota">Organizado:</label>
+						<input type="range" id="nota" name="nota" value="0" min="0" max="10">	
+			</fieldset>			
+			<br>
+
+			<fieldset> <!-- Cria um campo bem legal para agrupar a lista-->
+				<legend><strong>Áreas de interesse</strong></legend>
+				<label>
+				<input type="checkbox" name="esportes" value="esportes" checked>
+				Esportes
+			</label>
+			<label>
+				<input type="checkbox" name="cinema" value="cinema">
+				Cinema
+			</label>
+			<label>
+				<input type="checkbox" name="viagens" value="viagens">
+				Viagens
+			</label>
+			<label>
+				<input type="checkbox" name="comida" value="comida">
+				Comida
+			</label>
+			<label>
+				<input type="checkbox" name="informatica" value="informatica">
+				Informática
+			</label>
+			<label>
+				<input type="checkbox" name="festas" value="festas">
+				Festas
+			</label>
+			<label>
+				<input type="checkbox" name="animais" value="animais">
+				Animais
+			</label>
+			</fieldset>
+			<br>
+
+			<fieldset> 
+				<legend><strong>Escolha para qual cargo deseja concorrer:</strong></legend>
+
+				<label>
+					<input type="radio" name="cargo" value="líder" checked>Líder
+				</label>
+				<label>
+					<input type="radio" name="cargo" value="cargo">Vice-líder
+				</label>
+				<label>
+					<input type="radio" name="cargo" value="cargo">Líder Esportivo
+				</label>
+				<label>
+					<input type="radio" name="cargo" value="feminino">Líder Espiritual
+				</label>
+				<label>
+					<input type="radio" name="cargo" value="cargo">Líder Comunicação
+				</label>
+			</fieldset>
+			<br>
+
+			<label for="descricao"><strong>Informe porque você está concorrendo a este cargo; abordando seus pontos fortes, fracos, interesses, etc.</strong></label>
+			<br>
+
+			<!--"Cols" representa 30 caracteres por linha. "Rows" vai representar o número de linhas-->
+			<textarea placeholder="Digite..." id="descricao" name="descricao"	cols="30" rows="5" style="resize: none;" 
+			></textarea>
+			<br><br>
+
+			<strong>Envie uma foto sua no formato .jpeg--></strong>
+			<input type="file" name="foto">
+			<br><br>
+
+			<button type="submit">Enviar Formulário</button>
+			<button type="reset">Limpar</button>
+		</form>
+	</body>
+</html>
