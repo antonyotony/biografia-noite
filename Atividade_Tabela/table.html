@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style type="text/css">
+			table, th, td {
+				border: 2px solid red;
+				border-collapse: collapse; 
+			}  
+		</style>
+	<!--O Border-Collapse junta as linhas e fica fino-->
+	</head>
+	<body>
+		<table>
+			<thead><!--Cabeçalho da tabela-->
+				<tr>
+					<td colspan="3" style="text-align: center">Tabela de Clientes</td><!--Colspan REPRESENTA 3 colunas, não mescla MAIS duas coluinas-->
+				</tr>
+			<tr> <!--Table row - Linha da tabela-->
+				<th style="text-align: center">Id</th> <!--Table data - Dado da tabela  e Th - Table Header: Centralizado e em negrito-->
+				<th>Nome</th>
+				<th>Nascimento</th>
+			</thead>
+			<tbody>
+				</tr>
+				<td>1</td>
+				<td>Weskley Bezerra</td>
+				<td>18/10/1982</td>
+			<tr>
+				<td>2</td>
+				<td>Sobrinho Justino</td>
+				<td>25/06/1966</td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>Antônio Augusto</td>
+				<td>14/03/1994</td>
+			</tr>	
+			</tbody>
+			<tfoot>
+				<tr>
+					<td>Total</td>
+					<td colspan="2" style="text-align: center">3</td>
+				</tr>
+			</tfoot>
+		</table>
+	</body>
+</html>

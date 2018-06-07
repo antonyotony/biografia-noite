@@ -1,5 +1,9 @@
-#paragrafo1 {
-	font-size: 24px;
+@font-face{
+	font-family: 'Raleway';
+	src: url(fonts/Raleway/Raleway-Medium.ttf)
+}
+#paragrafo2 {
+	background-color: gold;
 }
 .fundo {
 	background-color: pink;
@@ -7,18 +11,31 @@
 	text-align: center;
 }
 
+#Cabeçalho{
+	border: 3px solid;
+	width: 590px;
+	height: 50px;
+}
 .borda-preta{
 	border: 3px solid;
 	border-color: black;
+	color: white;
+	background-color: black;
+	text-align: center
 }	
 
 body {
 	font-family: 'Raleway';
 }
 
-ul{
-	background: #3399ff;
-    padding: 10px;;
+#ul1{
+	background: red;
+    ;
+}
+
+#ul2{
+	background: #0099ff;
+    ;
 }
 
 #foto{
