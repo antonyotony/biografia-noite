@@ -40,3 +40,13 @@ GET e POST
 	POST: Dados enviados no corpo da requisição, não na URL.Requisição mais lenta. 
 	- Se der "refresh" ele pode enviar de novo os dados, tem que evitar isso. 
 	- Garante privacidade, mas não necessariamente segurança. Segurança se consegue com HTTPS e certificado de segurança em criptografia. 
+
+-----------------------------------------------------
+FLOAT: Os irmãos se respeitam. Eles não se sobrepoem.
+Estrutura:
+	<div id="cabecalho"></div>
+   		<div id="corpo">
+        	<div id="menu"></div>
+        	<div id="conteudo"></div>
+   </div>
+   <div id="rodape"></div>
