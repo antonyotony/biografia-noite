@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+#menusocialmaior{
+    width: 1903px;
+    height: 100px;
+    font-size: 50px;
+    text-align: center;
+}
+
+#menusocial{
+    width: 260px;
+    height: 100px;
+    right: 0;
+    top: 0;
+    position: absolute;
+    position: fixed;
+}
+
+
+#cabecalho{
+    width: 1903px;
+    height: 300px;
+    background-color: aqua;
+    margin-top: 100px;
+   
+}
+
+#corpo{
+    width: 1000px;
+    height: 800px;
+    margin: auto;
+}
+
+#menu_superior{
+    width: 900px;
+    height: 35px;
+    background-color: rgba(0, 183, 255, 0.89);
+    font-size: 30px;
+    text-align: center;
+    word-spacing: 20px;
+    border-radius: 5px;
+    margin: auto;
+}
+
+#menu_lateral{
+    width: 190px;
+    height: 790px;
+    float: left;
+    border-style: dotted;
+    border-width: 5px;
+    border-color: green;
+    border-radius: 10px;
+}
+
+#conteudo{
+    width: 690px;
+    height: 790px;
+    float: left;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgba(0, 183, 255, 0.89);
+    border-radius: 10px;
+    margin: auto;
+    text-align: justify;
+}
+
+#cabecalhoconteudo{
+    text-align: center;
+}
+
+#imagemdamateria{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+#feed{
+    width: 90px;
+    height: 790px;
+    float: left;
+    border-style: dotted;
+    border-width: 5px;
+    border-color: green;
+    border-radius: 10px;
+}
+
+#rodape{
+    width: 1903px;
+    height: 100px;
+    background-color: rgba(0, 183, 255, 0.89);;
+}
+
+#logorodape{
+    float: right;
+}
+
+#informacoesrodape{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+#demaisinfos{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+/*#container{
+    margin: auto;
+    width: 700px;
+}*/
