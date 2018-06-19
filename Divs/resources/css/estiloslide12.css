@@ -1,69 +1,68 @@
 
-        *{
-            margin: 0px;
-            padding: 0px;
-        }
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#linhalegal{
+    width: 1582px;
+    height: 10px;
+}
+
+#menuredes{
+    width: 1582px;
+    height: 40px;
+}
+
+#redesociais{
+    float: right;
+}
+
+#cabecalho{
+    width: 1582px;
+    height: 600px;
+    border-radius: 5px;
+}
+
+#menu_superior{
+    width: 1582px;
+    height: 80px;
+}
+
+#menu_lateral{
+    background-color: blueviolet;
+    width: 200px;
+    height: 1000px;
+    float: left;
+    border-radius: 5px;
+}
+
+#corpo{
+    width: 1582px;
+    height: 1000px;
+}
+
+#conteudo{
+    background-color: chocolate;
+    width: 1182px;
+    height: 1000px;
+    float: left;
+    border-radius: 5px;
+}
+
+#feed{
+    background-color: crimson;
+    width: 200px;
+    height: 1000px;
+    float: left;
+    border-radius: 5px;
+}
+
+#rodape{
+    background-color: darksalmon;
+    width: 1582px;
+    height: 100px;
+    border-radius: 5px;
+}
         
-        #linhalegal{
-            width: 1582px;
-            height: 10px;
-        }
-
-        #menuredes{
-            width: 1582px;
-            height: 40px;
-        }
-
-        #redesociais{
-            
-            float: right;
-        }
-
-        #cabecalho{
-            background-color: ;
-            width: 1582px;
-            height: 600px;
-            border-radius: 5px;
-        }
-
-        #menu_superior{
-            background-color:;
-            width: 1582px;
-            height: 80px;
-        }
-
-        #menu_lateral{
-            background-color: blueviolet;
-            width: 200px;
-            height: 1000px;
-            float: left;
-            border-radius: 5px;
-        }
-
-        #corpo{
-            width: 1582px;
-            height: 1000px;
-        }
-
-        #conteudo{
-            background-color: chocolate;
-            width: 1182px;
-            height: 1000px;
-            float: left;
-            border-radius: 5px;
-        }
-        
-        #feed{
-            background-color: crimson;
-            width: 200px;
-            height: 1000px;
-            float: left;
-            border-radius: 5px;
-        }
-
-        #rodape{
-            background-color: darksalmon;
-            width: 1582px;
-            height: 100px;
-            border-radius: 5px;
-        }

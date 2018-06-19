@@ -4,6 +4,13 @@
 
 }
 
+@media screen and (max-width: 576px) {
+
+    #menusocialmaior, #menusocial{
+        display: none;
+    }
+ }
+
 #menusocialmaior{
     width: 1903px;
     height: 100px;
