@@ -1,4 +1,4 @@
-GIT
+﻿GIT
 
 Abrindo os arquivos ocultos eu consigo ver a pasta GIT e posso deletá-la, dando um fim ao meu repositório.
 
@@ -50,3 +50,8 @@ Estrutura:
         	<div id="conteudo"></div>
    </div>
    <div id="rodape"></div>
+
+------------------------------------------------------
+RESPONSIVIDADE
+
+Propriedade que uma página possui de adaptar-se a resolução disponível 
